@@ -2,7 +2,7 @@ import { Context, dialog, IntentRequest, LaunchRequest, request, RequestBody, re
 import test from 'ava';
 import {PigSounds} from './pig-sounds';
 
-for (let index = 0; index < 30; index++) {
+for (let index = 0; index < 1; index++) {
     test((t) => {
         const helloWorld = new PigSounds();
 

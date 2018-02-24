@@ -11,7 +11,8 @@ test((t) => {
 
     const testResponse = {
         say: (input) => {
-            t.is(input, 'W00t launched');
+            // tslint:disable-next-line:max-line-length
+            t.regex(input, /<speak>Hi, I&apos;m piggy wiggy <audio src='https:\/\/s3.eu-west-2.amazonaws.com\/pig-sounds\/[a-zA-Z0-9\-_]+.mp3'\/> say, talk to me or, say hello, to get started<\/speak>/);
             return testResponse;
         },
         shouldEndSession: (shouldEnd) => {

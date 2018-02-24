@@ -10,7 +10,7 @@ test((t) => {
     const testRequest = {} as request;
     const testResponse = {
         say: (input) => {
-            t.is(input, 'Help text.');
+            t.is(input, 'Say, talk to me or, say hello, to get started');
             return testResponse;
         },
         shouldEndSession: (shouldEnd) => {

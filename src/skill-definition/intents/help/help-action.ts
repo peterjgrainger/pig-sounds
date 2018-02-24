@@ -7,5 +7,5 @@ import { request, response } from "alexa-app/types";
  * @param response
  */
 export function helpAction(alexaRequest: request, alexaResponse: response) {
-    return alexaResponse.say('Help text.').shouldEndSession(false);
+    return alexaResponse.say('Say, talk to me or, say hello, to get started').shouldEndSession(false);
 }
