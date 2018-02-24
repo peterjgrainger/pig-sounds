@@ -1,0 +1,18 @@
+export const pigSoundsList = [
+    'pigpissd',
+    'hog11',
+    'ofarm',
+    'pig',
+    'pig2',
+    'pig3',
+    'pigs-01',
+    'pigs-02',
+    'pigs',
+    'pigsnort',
+    'big-pig-snort',
+    'quiet-pig',
+    'snort',
+    'sons-pig',
+    'squeal3',
+    'wreee',
+];

@@ -40,21 +40,6 @@ test((t) => {
 
     t.is(model.interactionModel.languageModel.invocationName,
         PublishingInformation.NAME);
-    t.deepEqual(model.interactionModel.languageModel.types, [{
-                name: 'NAME',
-                values: [{
-                    name: {
-                        value: 'Peter',
-                    },
-                }, {
-                    name: {
-                        value: 'Paul',
-                    },
-                }, {
-                    name: {
-                        value: 'John F. Kennedy',
-                    },
-                }],
-            }]);
+    t.deepEqual(model.interactionModel.languageModel.types, []);
 
 });

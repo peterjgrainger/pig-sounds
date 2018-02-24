@@ -72,10 +72,12 @@
     "tslint": "^5.9.1"
   },
   "dependencies": {
+    "@types/chance": "^0.7.36",
     "@types/node": "^9.4.0",
     "alexa-app": "^4.2.0",
     "alexa-utterances": "^0.2.1",
     "ava": "^0.24.0",
+    "chance": "^1.0.13",
     "clipboardy": "^1.2.2",
     "coveralls": "^3.0.0",
     "express": "^4.16.2",
@@ -85,6 +87,7 @@
     "prompt": "^1.0.0",
     "rimraf": "^2.6.2",
     "snyk": "^1.65.1",
+    "ssml-builder": "^0.4.3",
     "ts-mockito": "^2.2.7",
     "typescript": "^2.6.2"
   },

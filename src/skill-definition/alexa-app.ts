@@ -3,8 +3,8 @@ import { PublishingInformation } from '../publishing-information';
 import { SkillExpressOptions } from '../server/ExpressOptions';
 import { AmazonDefault } from './intents/amazon-default/amazon-default';
 import { endAction } from './intents/end/end-action';
-import { HelloWorld } from './intents/hello-world/hello-world';
 import { helpAction } from './intents/help/help-action';
+import { PigSounds } from './intents/pig-sounds/pig-sounds';
 import { stopAction } from './intents/stop/stop-action';
 import { launch } from './launch/launch';
 import { Intent } from './models/intents/intent';
@@ -30,7 +30,7 @@ export class AlexaApp extends app {
         this.addIntent(new AmazonDefault('stop', stopAction));
         this.addIntent(new AmazonDefault('cancel', endAction));
         this.addIntent(new AmazonDefault('help', helpAction));
-        this.addIntent(new HelloWorld());
+        this.addIntent(new PigSounds());
     }
 
     /**
